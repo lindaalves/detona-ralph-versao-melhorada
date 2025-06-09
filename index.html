@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--conf-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detona Ralph</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--styles-->
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-time">
+          <h2 style="color: red">Time left</h2>
+          <h2 id="time-left">0</h2>
+        </div>
+        <div class="menu-score">
+          <h2 style="color: red">Your Score</h2>
+          <h2 id="score">0</h2>
+        </div>
+        <div class="menu-lives">
+          <img
+            src="/src/images/player.png"
+            alt="imagem do jogador"
+            height="50px"
+          />
+          <span id="lifes">❤️❤️❤️</span>
+        </div>
+        <p>Recorde: <span id="high-score">0</span></p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-row">
+          <div class="square enemy" id="1"></div>
+          <div class="square" id="2"></div>
+          <div class="square" id="3"></div>
+        </div>
+
+        <div class="panel-row">
+          <div class="square" id="4"></div>
+          <div class="square" id="5"></div>
+          <div class="square" id="6"></div>
+        </div>
+
+        <div class="panel-row">
+          <div class="square" id="7"></div>
+          <div class="square" id="8"></div>
+          <div class="square" id="9"></div>
+        </div>
+      </div>
+      <div id="game-over-screen" style="display: none">
+        <h2>Game Over</h2>
+        <p id="final-message">Você perdeu!</p>
+        <button id="restart-btn">Jogar Novamente</button>
+      </div>
+    </div>
+    <script src="/src/scripts/engine.js"></script>
+
+    <footer>
+      <p>
+        Baseado no projeto original da
+        <a
+          href="https://github.com/digitalinnovationone/jsgame-detona-ralph"
+          target="_blank"
+          >DIO</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
