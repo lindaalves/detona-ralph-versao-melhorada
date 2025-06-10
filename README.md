@@ -6,8 +6,6 @@ Este é um jogo interativo inspirado no projeto original da Digital Innovation O
 - 🏆 Recorde salvo com `localStorage`
 - 🎮 Tela de fim de jogo com botão de reinício
 
-![preview do jogo](/src/images/preview.png)
-
 ## 💻 Tecnologias usadas
 
 - HTML5
@@ -25,10 +23,6 @@ Este é um jogo interativo inspirado no projeto original da Digital Innovation O
 - Recorde salvo mesmo após fechar a página
 
 ---
-
-## 📸 Preview
-
-## `/src/images/preview.png`
 
 ## 🙏 Créditos
 
